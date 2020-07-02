@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "regionaleverstone",
+        "name": "RegionalEverstone",
+        "description": "Allows the user to pass down regional forms by holding an everstone on a pokemon",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["qwbarch"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
