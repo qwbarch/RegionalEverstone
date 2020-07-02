@@ -30,8 +30,5 @@ class RegionalEverstone constructor(val logger: Logger = LogManager.getLogger("R
 
         @Mod.Instance(MOD_ID)
         lateinit var INSTANCE: RegionalEverstone
-
-        @GameRegistry.ObjectHolder("pixelmon:everstone")
-        lateinit var ITEM_EVERSTONE: Item
     }
 }
