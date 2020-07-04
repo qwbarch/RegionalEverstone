@@ -26,7 +26,7 @@ class RegionalEverstone constructor(val logger: Logger = LogManager.getLogger("R
     companion object {
         const val MOD_ID = "regionaleverstone"
         const val MOD_NAME = "RegionalEverstone"
-        const val VERSION = "1.0-SNAPSHOT"
+        const val VERSION = "1.0"
 
         @Mod.Instance(MOD_ID)
         lateinit var INSTANCE: RegionalEverstone
