@@ -4,9 +4,10 @@ import com.pixelmonmod.pixelmon.api.events.BreedEvent
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 
-class BreedingListener {
+object BreedingListener {
 
     @SubscribeEvent
+    @JvmStatic
     fun onMakeEgg(event: BreedEvent.MakeEgg) {
         if (parentIsHoldingEverstone(event.parent1) &&
                 parentIsHoldingEverstone(event.parent2)) {
